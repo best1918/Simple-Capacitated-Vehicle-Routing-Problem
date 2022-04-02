@@ -94,7 +94,7 @@ public class HelloWorld {
 								inPermute_Index++;
 							}
 							for (int m = 1; m < partition.get(j)[l]; m++) {
-								if (inPermute_Index == 1) {
+								if (m == 1) {
 									System.out.print(customerName[0] + "("+distance.get(0)[permutation.get(i)[inPermute_Index - 1] + 1]+")>"
 											+ customerName[permutation.get(i)[inPermute_Index - 1] + 1] + " ");
 									sumDistance += distance.get(0)[permutation.get(i)[inPermute_Index - 1] + 1];
